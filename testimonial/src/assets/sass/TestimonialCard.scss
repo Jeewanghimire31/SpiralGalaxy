@@ -1,0 +1,60 @@
+.testimonial_Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .container_title {
+        font-size: 3rem;
+        color: #27184c;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .picture {
+            height: 5rem;
+            width: 5rem;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .name {
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding-top: .5rem;
+        }
+
+        .education {
+            font-size: .9rem;
+            color: #27184c;
+            border-radius: .2rem;
+        }
+
+        .detail {
+            font-size: 1.05rem;
+            padding: 0rem 3rem;
+            margin: 0rem .8rem;
+
+            span {
+                font-size: 2rem;
+                color: lightgray;
+                padding-right: .5rem;
+            }
+        }
+
+        .icon {
+            padding-top: 1rem;
+            // text-align: center;
+            svg{
+
+                margin: 0 .3rem  ;
+            }
+
+        }
+    }
+}
